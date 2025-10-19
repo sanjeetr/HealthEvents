@@ -1,0 +1,1 @@
+ dotnet publish "e:\Maui\ChildCare\ChildCare.csproj" -f net8.0-android -c Release -p:AndroidPackageFormat=apk -p:AndroidKeyStore=true -p:AndroidSigningKeyStore="c:\Users\SanjeetGuddo\AppData\Local\Xamarin\Mono for Android\Keystore\healthevents.keystore" -p:AndroidSigningKeyAlias=healthevents -p:AndroidSigningKeyPass=healthevent -p:AndroidSigningStorePass=healthevent
